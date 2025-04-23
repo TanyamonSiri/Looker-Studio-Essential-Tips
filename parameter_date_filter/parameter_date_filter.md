@@ -12,7 +12,7 @@ Parameter can be used to manipulate data in Looker Studio or any other Business 
 💡 Note that you can apply this technique to other BI tools as well :-) 
 
 ## 📁 Sample Data
-- [mockup_demand_sales]()
+- [mockup_demand_sales](https://github.com/TanyamonSiri/Looker-Studio-Essential-Tips/blob/main/parameter_date_filter/mockup_demand_sales_data.csv)
 ## 📌 Data Requirement 
 - `date` as date type
 
