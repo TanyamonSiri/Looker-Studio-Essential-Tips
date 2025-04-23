@@ -32,13 +32,12 @@ My data has `payment_date` as a date dimension so I used simple `CASE WHEN` in t
     WHEN LOWER( Date Level) = 'weekly' THEN FORMAT_DATETIME("%Y-%m-%d", DATETIME_TRUNC(payment_date, ISOWEEK)) || ' to ' || FORMAT_DATETIME("%Y-%m-%d", DATETIME_ADD(DATETIME_TRUNC(payment_date, ISOWEEK), INTERVAL 6 DAY) )
     WHEN LOWER (Date Level) = 'monthly' THEN FORMAT_DATETIME("%Y%m", payment_date)
     WHEN LOWER( Date Level) = 'quarterly' THEN FORMAT_DATETIME("%Y", payment_date) || 'Q' || QUARTER(payment_date)
-    WHEN LOWER( Date Level) = 'yearly' THEN FORMAT_DATETIME("%Y", payment_date)
+    WHEN LOWER( Date Level) = 'yearly (cy)' THEN FORMAT_DATETIME("%Y", payment_date)
 END
  
 ```
 
-
-![image](https://github.com/user-attachments/assets/bfcd94f0-6b32-4d30-ae9e-8f4d24bc3839)
+![image](https://github.com/user-attachments/assets/567ccc34-f862-461e-927d-22ccb3ff0bf9)
 
 
 In this case, I used an ISO week which has monday as a week start day 😊
