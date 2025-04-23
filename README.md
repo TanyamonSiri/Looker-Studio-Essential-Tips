@@ -6,4 +6,4 @@ Here is a collection of practical tips and tricks I've learned from using Looker
 
 ### 📅 Using Parameter for date manipulation
 Date dimension can be tricky but using parameter in Looker Studio can help you achieve a fantastic report for any stakeholders.
-- [Parameter Date Filters & Slicers](https://github.com/TanyamonSiri/Looker-Studio-Essential-Tips/parameter-date-filter.md)
+- [Parameter Date Filters & Slicers](https://github.com/TanyamonSiri/Looker-Studio-Essential-Tips/tips/parameter-date-filter.md)
