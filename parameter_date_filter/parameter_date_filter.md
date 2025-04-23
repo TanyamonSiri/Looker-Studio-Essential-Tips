@@ -1,20 +1,47 @@
 
-# Parameter Date Filters & Slicers
+# 📅 Parameter Date Filters & Slicers
 
-There were many times that I got a requirement of sales with different date granularity. <br>
-In this scenario, Finance team wanted to view sales report in monthly, Marketing team wanted to see the sales in daily and weekly to track their promotions performance, etc.
-In order to achieve this, I found that some data analysts build different reports to support each department's need, or sometimes they separated the granularity into each pages instead.
+In many projects, I’ve often encountered a common challenge: different stakeholders require sales data at different levels of date granularity.
 
-Therefore, eventhough they are the same sales reports, a lot of report duplication was made, which is not only hard to maintain in a long term, but also use more resources.
-The countermeasure for this problem is to use a parameter.
-Parameter can be used to manipulate data in Looker Studio or any other Business Intelligence tools like Power BI and Tableau.
+For example:
 
-💡 Note that you can apply this technique to other BI tools as well :-) 
+- The **Finance** team typically prefers a **monthly** sales view for financial reporting.
+- The **Marketing** team, on the other hand, often needs **daily** or **weekly** breakdowns to evaluate campaign performance in detail.
+
+To meet these varied needs, some data analysts create **separate reports** for each team or split date granularities across different pages. While this approach may work in the short term, it leads to:
+
+- Unnecessary **report duplication**
+- Increased **maintenance overhead**
+- Higher **resource consumption**
+
+## ✅ Solution: Use a Date Granularity Parameter
+
+A better approach is to implement **parameterized date filters**. By using a parameter, you can dynamically control the date granularity across your dashboards without duplicating reports.
+
+This technique allows users to **switch between daily, weekly, and monthly views** using a single report interface, improving both usability and maintainability.
+
+You can apply this method in:
+
+- **Looker Studio**
+- **Power BI**
+- **Tableau**
+- Or any modern BI tool that supports parameters and dynamic filtering.
+
+> 💡 **Tip**: Although this guide is focused on Looker Studio, the concept of parameter-driven filtering is applicable across most BI platforms.
+ 
 
 ## 📁 Sample Data
-- [mockup_demand_sales](https://github.com/TanyamonSiri/Looker-Studio-Essential-Tips/blob/main/parameter_date_filter/mockup_demand_sales_data.csv)
-## 📌 Data Requirement 
-- `date` as date type
+
+- [mockup_demand_sales.csv](https://github.com/TanyamonSiri/Looker-Studio-Essential-Tips/blob/main/parameter_date_filter/mockup_demand_sales_data.csv)
+
+## 📌 Data Requirement
+
+To use this technique, your dataset must include the following:
+
+- `date`: Must be in a **date data type**, not text or string.
+
+> ⚠️ **Important**: Make sure the `date` column is correctly recognized as a date field in your BI tool (e.g., Looker Studio). If it's stored as text, convert it to a proper date format to enable correct filtering and parameter usage.
+
 
 ## Steps
 ### <b> 1. Create Parameter in Looker Studio </b> <br>
