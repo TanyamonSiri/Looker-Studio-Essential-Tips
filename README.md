@@ -3,7 +3,7 @@ Looker Studio is one of the Business Intelligence (BI) tool. It is free and user
 Here is a collection of practical tips and tricks I've learned from using Looker Studio at work.
 
 ## 📚 Tip Categories
-### 1. Set Manual Publishing
+### 1. Set Manual Publishing 👨‍🦰
 Control changes in the report with manual publishing.
 - [Manual Publishing](https://github.com/TanyamonSiri/Looker-Studio-Essential-Tips/blob/main/manual_publishing/manual_publishing.md)
 
