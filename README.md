@@ -14,3 +14,5 @@ Date dimension can be tricky but using parameter in Looker Studio can help you a
 - [Try the Mockup Dashboard](https://lookerstudio.google.com/reporting/363d8d76-928f-4ff4-a2fd-447eaf98b592)
 
 ### 3. Dynamic Text Styling with HTML 📊
+Boost your report experience by integrating HTML with Calculated fields for text styling.
+- [Text Styling with HTML](https://github.com/TanyamonSiri/Looker-Studio-Essential-Tips/blob/main/text_styling_with_html/text_styling_with_html.md)
