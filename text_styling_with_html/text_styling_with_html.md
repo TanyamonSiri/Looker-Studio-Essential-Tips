@@ -3,7 +3,7 @@
 
 Do you ever find yourself preparing multiple decks with the *same* information, just presented differently? Often, scorecards and plain text in Looker Studio aren’t enough to create a polished, presentation-ready report.  
 
-Wouldn’t it be better to have a **dynamic summary** that automatically adapts to your date range or metrics — saving you time and making your dashboards look more professional?  
+Wouldn’t it be better to have a **dynamic summary** that automatically adapts to your date range or metrics? This will saving you time and making your dashboards look more professional.  
 
 The good news is: you can achieve this with just a little bit of **HTML** combined with Looker Studio’s **calculated fields**. And don’t worry — you only need a handful of basic HTML tags to get started.  
 
