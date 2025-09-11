@@ -12,3 +12,5 @@ Control changes in the report with manual publishing.
 Date dimension can be tricky but using parameter in Looker Studio can help you achieve a fantastic report for any stakeholders.
 - [Parameter Date Filters & Slicers](https://github.com/TanyamonSiri/Looker-Studio-Essential-Tips/blob/main/parameter_date_filter/parameter_date_filter.md)
 - [Try the Mockup Dashboard](https://lookerstudio.google.com/reporting/363d8d76-928f-4ff4-a2fd-447eaf98b592)
+
+### 3. Dynamic Text Styling with HTML 📊
