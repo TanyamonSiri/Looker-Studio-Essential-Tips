@@ -27,6 +27,8 @@ You can apply this method in:
 - **Tableau**
 - Or any modern BI tool that supports parameters and dynamic filtering.
 
+Note: The solution described below works seamlessly with the BigQuery connector.
+
 > 💡 **Tip**: Although this guide is focused on Looker Studio, the concept of parameter-driven filtering is applicable across most BI platforms.
  
 
@@ -133,6 +135,13 @@ Now anyone can freely select the `Date Level`, and both charts will update dynam
 
 Although not all chart types are suitable for every date granularity, combining **Parameter Date Filters** with a **Calculated Field** empowers report users to manipulate the data and choose the view that best suits their needs.
 
+
+## 🔗 Live Demo
+Now, try it by yourself! For demonstration purposes, I built an interactive Looker Studio dashboard using a Google Sheets data source.
+
+👉 [Open the Mockup Dashboard ↗](https://lookerstudio.google.com/reporting/363d8d76-928f-4ff4-a2fd-447eaf98b592)
+
+Note: The “Quarterly” option has been removed in this version, as it did not work with the Google Sheets.
 
 <!--
  which is not only hard to maintain in a long term, but also use more resources.
