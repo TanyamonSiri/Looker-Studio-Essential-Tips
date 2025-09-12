@@ -82,8 +82,9 @@ This way, GA4 will collect usage data for every report under a single property.
 5. **Publish the Report**  
    - Once enabled, GA4 will start recording report usage events (e.g., page views, sessions).  
 
-6. **Validate in GA4**  
-   - Go to GA4’s **Realtime Report** to confirm events are being logged as users view the report.  
+My Reports Snapshot:
+<img width="2872" height="1357" alt="image" src="https://github.com/user-attachments/assets/4c3b3f97-75f3-4305-904a-ca01212b8504" />
+  
 
 ---
 
