@@ -14,9 +14,8 @@ User needs can shift as business rules and priorities change. Without usage data
 
 Tracking usage helps you validate whether your dashboard is actually serving its purpose.  
 
----
 
-### Example 1: Refresh Requirements  
+#### Example 1: Refresh Requirements  
 
 Imagine stakeholders request a dashboard that refreshes **every 4 hours** to monitor a newly launched campaign.  
 
@@ -26,9 +25,8 @@ A project manager will eventually ask:
 
 If we cannot measure usage, we won’t know whether the effort invested in maintaining such a refresh schedule is justified.  
 
----
 
-### Example 2: Changing Business Context  
+#### Example 2: Changing Business Context  
 
 Suppose you build a dashboard to track:  
 - The number of emails sent to applicants  
