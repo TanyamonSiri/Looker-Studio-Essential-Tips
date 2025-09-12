@@ -20,3 +20,7 @@ Date dimension can be tricky but using parameter in Looker Studio can help you a
 ### 3. Dynamic Text Styling with HTML 📊
 Boost your report experience by integrating HTML with Calculated fields for text styling.
 - [Text Styling with HTML](https://github.com/TanyamonSiri/Looker-Studio-Essential-Tips/blob/main/text_styling_with_html/text_styling_with_html.md)
+
+### 4. Track report usage with GA4 📈
+Track your report usage with Google Analytics 4.
+- [Track Report Usage with GA4](https://github.com/TanyamonSiri/Looker-Studio-Essential-Tips/blob/main/track-report-usage-ga4/track-report-usage-ga4.md)
