@@ -73,9 +73,12 @@ You can also review the [help](https://support.google.com/analytics/answer/93041
    - Go to your report and select **File → Report settings**.  
 
 4. **Enable GA4 Tracking**  
-   - In the settings panel, paste your **Measurement ID** into the Google Analytics tracking field.  
+   - In the settings panel, paste your **Measurement ID** into the Google Analytics tracking field.
+   - If you manage multiple reports, you can simply use the **same Measurement ID** across all of them.  
+This way, GA4 will collect usage data for every report under a single property.  
     <img width="1608" height="892" alt="image" src="https://github.com/user-attachments/assets/7a482dc1-1bc6-4351-b083-44007ded3fcd" />
-
+   
+  
 5. **Publish the Report**  
    - Once enabled, GA4 will start recording report usage events (e.g., page views, sessions).  
 
