@@ -81,7 +81,8 @@ This way, GA4 will collect usage data for every report under a single property.
    - Once enabled, GA4 will start recording report usage events (e.g., page views, sessions).  
 
 My Reports Snapshot:
-<img width="2872" height="1357" alt="image" src="https://github.com/user-attachments/assets/4c3b3f97-75f3-4305-904a-ca01212b8504" />
+<img width="2859" height="1342" alt="image" src="https://github.com/user-attachments/assets/1de10d6b-00fa-4c54-a6ae-b6277c22b153" />
+
   
 
 ---
@@ -95,3 +96,5 @@ By integrating GA4 with Looker Studio, you gain visibility into report usage and
 - Which reports deserve continued investment  
 - Which ones require updates  
 - Which ones should be decommissioned  
+
+💡 In my next tip, I’ll show you how to take the data collected in GA4 and turn it into insightful reports in Looker Studio.
